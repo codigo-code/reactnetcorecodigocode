@@ -1,0 +1,13 @@
+C:\dev\codigocodereactnetcore\clase1\bin\Debug\netcoreapp3.1\clase1.exe
+C:\dev\codigocodereactnetcore\clase1\bin\Debug\netcoreapp3.1\clase1.deps.json
+C:\dev\codigocodereactnetcore\clase1\bin\Debug\netcoreapp3.1\clase1.runtimeconfig.json
+C:\dev\codigocodereactnetcore\clase1\bin\Debug\netcoreapp3.1\clase1.runtimeconfig.dev.json
+C:\dev\codigocodereactnetcore\clase1\bin\Debug\netcoreapp3.1\clase1.dll
+C:\dev\codigocodereactnetcore\clase1\bin\Debug\netcoreapp3.1\clase1.pdb
+C:\dev\codigocodereactnetcore\clase1\obj\Debug\netcoreapp3.1\clase1.csprojAssemblyReference.cache
+C:\dev\codigocodereactnetcore\clase1\obj\Debug\netcoreapp3.1\clase1.csproj.CoreCompileInputs.cache
+C:\dev\codigocodereactnetcore\clase1\obj\Debug\netcoreapp3.1\clase1.AssemblyInfoInputs.cache
+C:\dev\codigocodereactnetcore\clase1\obj\Debug\netcoreapp3.1\clase1.AssemblyInfo.cs
+C:\dev\codigocodereactnetcore\clase1\obj\Debug\netcoreapp3.1\clase1.dll
+C:\dev\codigocodereactnetcore\clase1\obj\Debug\netcoreapp3.1\clase1.pdb
+C:\dev\codigocodereactnetcore\clase1\obj\Debug\netcoreapp3.1\clase1.genruntimeconfig.cache
