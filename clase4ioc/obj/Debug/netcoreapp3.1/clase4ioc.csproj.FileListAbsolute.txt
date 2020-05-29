@@ -1,0 +1,13 @@
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\bin\Debug\netcoreapp3.1\clase4ioc.exe
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\bin\Debug\netcoreapp3.1\clase4ioc.deps.json
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\bin\Debug\netcoreapp3.1\clase4ioc.runtimeconfig.json
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\bin\Debug\netcoreapp3.1\clase4ioc.runtimeconfig.dev.json
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\bin\Debug\netcoreapp3.1\clase4ioc.dll
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\bin\Debug\netcoreapp3.1\clase4ioc.pdb
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\obj\Debug\netcoreapp3.1\clase4ioc.csprojAssemblyReference.cache
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\obj\Debug\netcoreapp3.1\clase4ioc.csproj.CoreCompileInputs.cache
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\obj\Debug\netcoreapp3.1\clase4ioc.AssemblyInfoInputs.cache
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\obj\Debug\netcoreapp3.1\clase4ioc.AssemblyInfo.cs
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\obj\Debug\netcoreapp3.1\clase4ioc.dll
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\obj\Debug\netcoreapp3.1\clase4ioc.pdb
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase4ioc\obj\Debug\netcoreapp3.1\clase4ioc.genruntimeconfig.cache

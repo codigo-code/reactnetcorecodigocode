@@ -1,0 +1,13 @@
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\bin\Debug\netcoreapp3.1\clase3.exe
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\bin\Debug\netcoreapp3.1\clase3.deps.json
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\bin\Debug\netcoreapp3.1\clase3.runtimeconfig.json
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\bin\Debug\netcoreapp3.1\clase3.runtimeconfig.dev.json
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\bin\Debug\netcoreapp3.1\clase3.dll
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\bin\Debug\netcoreapp3.1\clase3.pdb
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\obj\Debug\netcoreapp3.1\clase3.csprojAssemblyReference.cache
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\obj\Debug\netcoreapp3.1\clase3.csproj.CoreCompileInputs.cache
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\obj\Debug\netcoreapp3.1\clase3.AssemblyInfoInputs.cache
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\obj\Debug\netcoreapp3.1\clase3.AssemblyInfo.cs
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\obj\Debug\netcoreapp3.1\clase3.dll
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\obj\Debug\netcoreapp3.1\clase3.pdb
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase3\obj\Debug\netcoreapp3.1\clase3.genruntimeconfig.cache
