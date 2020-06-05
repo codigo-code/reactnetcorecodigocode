@@ -1,0 +1,2 @@
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase5vectores\bin\Debug\netcoreapp3.1\clase5vectores.exe
+C:\dev\codigocodereactnetcore\reactnetcorecodigocode\clase5vectores\bin\Debug\netcoreapp3.1\clase5vectores.dll

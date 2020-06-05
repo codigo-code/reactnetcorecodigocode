@@ -1,0 +1,41 @@
+@page
+@model PeliculaModel
+
+
+
+
+<h1>Bienvenido a @Model.nombre </h1>
+
+
+
+    <!--input id="nombre" /> <br/>
+    
+    <button onClick="press()">press!</button-->
+
+    <form method="post">
+        <input asp-for="objPelicula.nombre" placeholder="ingrese el Nombre de la pelicula" /><br/>
+        <input asp-for="objPelicula.isbn" placeholder="ingrese el codigo ISBN" /><br/>
+        <input asp-for="objPelicula.genero" placeholder="ingrese el Genero de la pelicula" /><br/>
+        <input type="submit" value="guardar!"> 
+        <!--button type="submit"> guardar! </button-->
+    </form>
+<style>
+    input{
+        color:red;
+        size:10px;
+    }
+
+</style>
+
+
+<script>
+
+
+    function press(){
+        console.log(document.getElementById("nombre").value);
+
+        
+    }
+
+</script>
+
