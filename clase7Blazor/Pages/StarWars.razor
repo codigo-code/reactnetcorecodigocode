@@ -1,0 +1,20 @@
+@page "/starwar"
+
+<EditForm Model=@formulario OnSubmit=@recibirInfo>
+    <InputNumber @bind-Value=formulario.id id="id" placeholder="ingrese el id" />
+    <input type="submit" value="buscar!!!" />
+</EditForm>
+
+
+
+@code{
+    public FormStar formulario = new FormStar();
+
+    public async  void recibirInfo()
+    {
+        HttpClient http = new HttpClient();
+        var resultado = await http.GetFromJsonAsync<Object>("https://swapi.dev/api/people/" + formulario.id + "/");
+
+        Console.WriteLine(resultado);
+    }
+}

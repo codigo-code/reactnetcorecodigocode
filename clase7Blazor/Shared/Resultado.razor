@@ -1,0 +1,29 @@
+<style>
+    h3{
+        color:red;
+        
+    }
+
+    #foto{
+        background-color:gray;
+    }
+
+</style>
+<!--
+    CSS ---> 
+
+ 
+<div id="foto">
+    <h3>@imcCalculo</h3>
+
+    <img src="@path" />
+</div>
+
+
+@code{
+    [Parameter]
+    public string imcCalculo { get; set; }
+
+    [Parameter]
+    public string path { get; set; }
+}

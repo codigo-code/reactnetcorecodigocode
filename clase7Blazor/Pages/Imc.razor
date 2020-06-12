@@ -1,0 +1,46 @@
+@page "/imc"
+
+<h1>IMC , calcula que tan roto estas</h1>
+<EditForm Model=@persona OnSubmit=@calculoIMC>
+    <InputText @bind-Value=persona.nombre id="nombre" placeholder="ingrese su nombre" /> <br/>
+    <InputNumber @bind-Value=persona.peso id="peso" placeholder="ingrese su peso"/> <br />
+    <InputNumber @bind-Value=persona.altura id="altura" placeholder="ingrese altura"/> <br />
+    <input type="submit" value="press!">
+     
+</EditForm>
+
+
+<Resultado imcCalculo="@resultadoIMC" path="@persona.img" />
+
+@code{
+    // codigo c#
+
+    public Persona persona = new Persona();
+    public string resultadoIMC { get; set; }
+
+    public void calculoIMC()
+    {
+
+        Console.WriteLine("Calculando.....");
+        Console.WriteLine(persona.peso);
+
+        Console.WriteLine(persona.altura);
+
+        persona.res = persona.peso / (persona.altura * persona.altura);
+        resultadoIMC = "El valor del IMC: " +  (persona.res.ToString());
+        Console.WriteLine(persona.res);
+
+        if (persona.res < 18.5)
+        {
+            persona.img = "img/skinny.jpg";
+        }
+        else if (persona.res >= 18.5 && persona.res <= 24.99)
+        {
+            persona.img = "img/normal.jpg";
+        }
+        else
+        {
+            persona.img = "img/fat.jpg";
+        }
+    }
+}
