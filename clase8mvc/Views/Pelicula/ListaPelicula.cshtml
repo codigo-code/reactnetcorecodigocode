@@ -1,0 +1,10 @@
+
+
+<h1>Listar todas las peliculas existentes</h1>
+
+
+
+@foreach (PeliculaModel item in (IList<PeliculaModel>) ViewData["PeliculaNombre"])
+{
+    <h3>Nombre @item.nombre , fecha de lanzamiento: @item.relese </h3>
+}
