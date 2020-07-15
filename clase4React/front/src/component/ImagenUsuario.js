@@ -17,6 +17,8 @@ const ImagenUsuario = (props) => {
                 }
             }}>Cargar Foto Usuario </button>
 
+            
+
 
         </Fragment>
     );

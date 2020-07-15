@@ -3,7 +3,8 @@ import './App.css';
 import Usuario from './component/Usuario';
 import ImagenUsuario from './component/ImagenUsuario';
 import UContext from './component/UContext';
-
+import MostrarDescripcion from './component/MostrarDescripcion';
+import Get from './component/Get';
 
 const themes = {
   light: {
@@ -17,11 +18,11 @@ const themes = {
 };
 
 const objMagico = {
-  persona:{
+  persona: {
     nombre: 'dante',
-    apellido:'panella'
+    apellido: 'panella'
   },
-  deporte : 'hockey'
+  deporte: 'hockey'
 }
 
 
@@ -33,7 +34,11 @@ function App() {
         <br />
         <ImagenUsuario activo="activo"></ImagenUsuario>
         <br />
-
+        <MostrarDescripcion callback={() => {
+          console.log('valor');
+        }}></MostrarDescripcion>
+        <br />
+        <Get></Get>
       </div>
     </UContext.Provider>
   );
