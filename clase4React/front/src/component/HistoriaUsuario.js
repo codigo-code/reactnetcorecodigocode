@@ -1,5 +1,6 @@
 import React, { useState, useEffect, Fragment } from 'react';
 import Axios from 'axios';
+import MostrarDescripcion from './MostrarDescripcion';
 
 
 const HistorialUsuario = () => {
@@ -14,6 +15,9 @@ const HistorialUsuario = () => {
         <Fragment>
             <h3>Historial del usuario </h3>
             <h4>{resultado.name} , {resultado.mass} , {resultado.hair_color}</h4>
+
+            <MostrarDescripcion inf={reponse.data} />
+
         </Fragment>
     );
 }
