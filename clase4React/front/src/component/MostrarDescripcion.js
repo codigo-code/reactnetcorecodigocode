@@ -7,6 +7,7 @@ const MostrarDescripcion = ({ callback },props) => {
 
     return (
         <Fragment>
+            
             <button onClick={() => {
                 callback();
             }}>Apretame</button>

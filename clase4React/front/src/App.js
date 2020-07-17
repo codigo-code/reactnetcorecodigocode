@@ -5,6 +5,8 @@ import ImagenUsuario from './component/ImagenUsuario';
 import UContext from './component/UContext';
 import MostrarDescripcion from './component/MostrarDescripcion';
 import Get from './component/Get';
+import CardExampleCard from './component/CardExampleCard';
+import ObjRedus from './component/ObjRedus';
 
 const themes = {
   light: {
@@ -34,11 +36,17 @@ function App() {
         <br />
         <ImagenUsuario activo="activo"></ImagenUsuario>
         <br />
-        <MostrarDescripcion callback={() => {
+        <MostrarDescripcion   callback={() => {
           console.log('valor');
+          
+          // invoar al api
         }}></MostrarDescripcion>
         <br />
         <Get></Get>
+        <br />
+        <CardExampleCard nombre="soy el inicio"  ></CardExampleCard>
+        <br/>
+        <ObjRedus/>
       </div>
     </UContext.Provider>
   );
