@@ -11,12 +11,13 @@ const ObjRedus = () => {
     const [valor, setValor] = React.useState('');
 
     const reducer = (state, action) => {
-
+const elemento=[];
         switch (action.type) {
 
             case 'ver':
                 alert("hola te estoy viendo!");
-                setValor('pepe');
+                elemento.push(<h3>hola mundo</h3>);
+                setValor(elemento);
                 break;
             case 'registrar':
 
