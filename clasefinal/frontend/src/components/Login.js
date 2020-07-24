@@ -5,15 +5,28 @@ import axios from 'axios';
 
 const Login = () => {
 
-    const validar =(e)=>{
+    const validar = (e) => {
         e.preventDefault();
+        // const headers = {
+        //     'Content-Type': 'text/json'
+        // }; // java
 
-        axios.post('http://localhost:5000/Usuario/checkUser', {
+        // para resolverlo con Express ( node)
+        // axios.defaults.baseURL = 'http://localhost:3000/';
+        // axios.defaults.headers.post['Content-Type'] = 'application/json;charset=utf-8';
+        // axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+
+        axios.post('https://localhost:5001/Usuario/checkUser', {
             nombre: nombre_inp,
             password: password_inp
-           
+
         }).then(data => {
-            console.log(data);
+            console.log(data.data);
+            let objData = data.data;
+            if (objData.token !== null){
+                window.location.href = 'http://localhost:3000/productos?token='+objData.token;
+            }
+
         });
     }
     const [nombre_inp, setNombre] = useState(); // <---

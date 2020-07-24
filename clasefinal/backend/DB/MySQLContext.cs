@@ -10,6 +10,8 @@ namespace backend.DB
     {
 
         public DbSet<Usuario> usuarioDB { get; set; }
+        public DbSet<Producto> productoDB { get; set; }
+
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

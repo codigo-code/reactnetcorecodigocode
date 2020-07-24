@@ -2,6 +2,7 @@
 
 using backend.DB;
 using backend.modelo;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace backend.Controllers
@@ -12,7 +13,7 @@ namespace backend.Controllers
     public class UsuarioController : ControllerBase
     {
 
-        [HttpPost]
+        [HttpPost("save")]  // localhost:5001/Usuario/ ---->
         public IActionResult saveUsuario([FromBody] Usuario usuario)
         {
 
@@ -30,20 +31,33 @@ namespace backend.Controllers
         public IActionResult checkeUser([FromBody] Usuario usuario)
         {
 
-            Usuario u = new Usuario();
+            Respuesta r = new Respuesta();
             using (var db = new MySQLContext())
             {
                 var allUser = db.usuarioDB;
+
+                r.activo = false;
+                r.msj = "Usuario no encontrado";
                 foreach (Usuario item in allUser)
                 {
                     if (item.nombre == usuario.nombre && item.password == usuario.password)
                     {
-                        u = item;
+                        r.usuario = item;
+                        r.activo = true;
+                        r.token = "abc123";
+                        r.msj = "usuario correctamente autnticado";
                     }
+
                 }
             }
 
-            return Ok(u);
+            return Ok(r); // ---> 
+        }
+
+        [HttpGet]
+        public IActionResult getAlgo()
+        {
+            return Ok("hola mundo");
         }
     }
 }

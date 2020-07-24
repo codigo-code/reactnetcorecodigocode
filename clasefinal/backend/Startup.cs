@@ -18,6 +18,7 @@ namespace backend
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
         }
 
         public IConfiguration Configuration { get; }
@@ -26,14 +27,9 @@ namespace backend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddCors();
 
-            services.AddCors(o => o.AddPolicy("CorsPolicy", builder => {
-                builder
-                .AllowAnyMethod()
-                .AllowAnyHeader()
-                .AllowCredentials()
-                .WithOrigins("http://localhost:3000");
-            }));
+
 
 
         }
@@ -51,12 +47,13 @@ namespace backend
             app.UseRouting();
 
             app.UseCors(corsPolicyBuilder =>
-                corsPolicyBuilder.WithOrigins("http://localhost:3000")
-                .AllowAnyMethod()
-                .AllowAnyHeader()
-            );
+                     corsPolicyBuilder.WithOrigins("http://localhost:3000")
+                     .AllowAnyMethod()
+                     .AllowAnyHeader()
+                     .AllowAnyOrigin()
+                     );
 
-       
+
 
             app.UseAuthorization();
 
